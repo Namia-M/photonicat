@@ -195,24 +195,14 @@
 
 ## 定制固件 [![](https://img.shields.io/badge/-项目基本编译教程-FFFFFF.svg)](#定制固件-)
 1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库，复刻[`必看项！！！💕`](https://github.com/Namia-M/OpenWrt-X/blob/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt)
-2. REPO_TOKEN密匙制作教程：https://git.io/jm.md 云编译需要 [在此](https://github.com/settings/tokens) 创建个```token```,勾选：```repo```, ```workflow```，保存所得的key【后面两种随意】
-- 然后在此仓库```Settings```->```Secrets```中添加个名字为```REPO_TOKEN```的Secret,填入token获得的key
-
-- TG通知```Settings```->```Secrets```中添加个名字为```TELEGRAM_BOT_TOKEN```和```TELEGRAM_CHAT_ID```
+2. TOKEN密匙制作教程：https://git.io/jm.md 云编译需要 [在此](https://github.com/settings/tokens) 创建个```token```,勾选：```repo```, ```workflow```，保存所得的key【后面两种随意】
+- 然后在此仓库```Settings```->```Secrets```中添加个名字为```TOKEN```的Secret,填入token获得的key
 3. 插件对应名称及功能请参考恩山网友帖子：[Applications 添加插件应用说明](https://www.right.com.cn/forum/thread-3682029-1-1.html) 不完全看我后面加啥随心
-4. 如需修改默认 IP、添加一些其他设置请在 `【xxx】diy-part.sh` 文件内修改，已经大众化了
-5. 点击 `Actions` 运行要编译的 `workflow`去选取是否需要SSH链接如果不需要直接开始编译
-- 如果需要ssh，点打开，最后点击运行程序就可以了
-- 在运行过程中会出现ssh链接网址点击它就会打开另外一个网址
-- 开始 ctrl+C 结束 ctrl+D
-- 进ssh选择插件
-- 进入CD命令
--     cd openwrt && make menuconfig
-  
-6. 编译大概需要1-3小时，一般两个半小时就编译完成，最后后在仓库主页 [Releases](https://github.com/Namia-M/OpenWrt-X/releases) 对应 Tag 标签内下载固件
+5. 点击 `Actions` 运行要编译的 ，如果需要添加什么插件需要到[配置表](https://github.com/Namia-M/photonicat/blob/main/configs/base_config) 如果你添加了没有那么你需要到【build.sh】里面去添加软件仓库
+6. 编译大概需要1-3小时，一般两个半小时就编译完成，最后后在仓库主页 [Releases](https://github.com/Namia-M/photonicat/releases) 对应 Tag 标签内下载固件
 <details>
 
-   **如果看不懂编译界面可以参考 YouTube 视频：[软路由固件 OpenWrt 编译界面设置](https://www.youtube.com/watch?v=jEE_J6-4E3Y&list=WL&index=7)**
+   **如果看不懂编译界面可以参考配置表和YouTube 视频：[软路由固件 OpenWrt 编译界面设置](https://www.youtube.com/watch?v=jEE_J6-4E3Y&list=WL&index=7)**
 </details>
 
 ## 特别提示 [![](https://img.shields.io/badge/-个人免责声明-FFFFFF.svg)](#特别提示-)
