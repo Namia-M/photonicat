@@ -9,6 +9,11 @@ cat << EOF >> feeds.conf.default
 src-git diy1 https://github.com/xiaorouji/openwrt-passwall-packages.git;main
 src-git diy2 https://github.com/xiaorouji/openwrt-passwall.git;main
 src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main
+src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;v5-lua
+src-git istore https://github.com/linkease/istore;main
+src-git adguard https://github.com/Namia-M/openwrt-package.git;adguard
+
+
 EOF
 rm target/linux/rockchip/files/arch/arm64/boot/dts/rockchip/rk3568-photonicat.dts
 cp $workdir/configs/rk3568-photonicat-usb30.dts target/linux/rockchip/files/arch/arm64/boot/dts/rockchip/rk3568-photonicat.dts
