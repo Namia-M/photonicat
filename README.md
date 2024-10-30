@@ -14,11 +14,10 @@
 
 
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
-- 项目使用 Github Actions 拉取Openwrt的源码有 [![Immortalwrt](https://img.shields.io/badge/immortalwrt-OpenWrt-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/immortalwrt/immortalwrt)
+- 项目使用 Github Actions 拉取Openwrt的源码 [![Immortalwrt](https://img.shields.io/badge/immortalwrt-OpenWrt-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/immortalwrt/immortalwrt)
 - 固件默认管理地址：`192.168.1.1` 默认用户：`root` 密码`【空】`
 - 提供适配photonicat 的 OpenWrt 固件
 - 项目编译的固件插件为最新版本，最新版插件可能有 BUG，如果之前使用稳定则无需追新
-- 
 - - ### X86_64 [`x86_64💕`](https://github.com/Namia-M/OpenWrt-X) 
 - X86_64使用请采用全新安装，避免出现升级失败以及其他一些可能的 BUG
 - 支持uefi和传统启动两种模式，可以使用微pe或传统你们知道的刷机方式
