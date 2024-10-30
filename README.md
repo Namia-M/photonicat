@@ -44,7 +44,7 @@
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/openwrt-PhotonicatWrt-32C955.svg?logo=openwrt)](https://github.com/Namia-M/photonicat/blob/main/.github/workflows/Immortalwrt.yml) | [![](https://github.com/Namia-M/photonicat/actions/workflows/Immortalwrt.yml/badge.svg)](https://github.com/Namia-M/photonicat/actions/workflows/Immortalwrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/Namia-M/photonicat/blob/main/build/Lede/seed/photonicatWrt) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/Namia-M/photonicat/releases/tag/Update-rockchip) |
+| [![](https://img.shields.io/badge/openwrt-PhotonicatWrt-32C955.svg?logo=openwrt)](https://github.com/Namia-M/photonicat/blob/main/.github/workflows/Immortalwrt.yml) | [![](https://github.com/Namia-M/photonicat/actions/workflows/Immortalwrt.yml/badge.svg)](https://github.com/Namia-M/photonicat/actions/workflows/Immortalwrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/Namia-M/photonicat/blob/main/configs/base_config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/Namia-M/photonicat/releases/tag/Update-rockchip) |
 
 
 ### 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
