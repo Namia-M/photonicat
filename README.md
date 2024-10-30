@@ -1,7 +1,6 @@
-  
 <div align="center">
   
-![img.png](backups/https://github.com/Namia-M/OpenWrt-X/blob/main/backups/%E5%AE%9E%E4%BE%8B/openwrt.png)
+![img.png](backups/实例/openwrt.png)
 -
 <h1>OpenWrt-X   固件云编译</h1>
 
