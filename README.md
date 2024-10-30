@@ -22,7 +22,7 @@
 - X86_64使用请采用全新安装，避免出现升级失败以及其他一些可能的 BUG
 - 支持uefi和传统启动两种模式，可以使用微pe或传统你们知道的刷机方式
 - 另外就是网盘的固件可能更新的网站是我原始仓库-X的你们如果刷网盘固件并且要和我后台关联更新的话把Namia-X改成Namia-M
-- 刷机工具 [`百度网盘💕`](https://pan.baidu.com/s/1k14RFEMdHw3W_S7wCnQyDg?pwd=8986) 提取码: 8986 
+- 刷机工具两个设备的 [`百度网盘💕`](https://pan.baidu.com/s/1k14RFEMdHw3W_S7wCnQyDg?pwd=8986) 提取码: 8986 
 - 编译 [`必看项💕`](https://raw.githubusercontent.com/Namia-M/photonicat/refs/heads/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt) 
 - ### 最后就是所有的固件是基于本人有什么设备而去编译的而不是大众化，有啥做的不好的自行谅解！邮箱和T G联系
 
