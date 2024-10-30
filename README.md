@@ -4,10 +4,10 @@
 -
 <h1>OpenWrt-X photonicat 固件云编译</h1>
 
-<img src="https://img.shields.io/github/downloads/Namia-M/OpenWrt-X/total.svg?style=for-the-badge&color=32C955"/>
-<img src="https://img.shields.io/github/stars/Namia-M/OpenWrt-X.svg?style=for-the-badge&color=orange"/>
-<img src="https://img.shields.io/github/forks/Namia-M/OpenWrt-X.svg?style=for-the-badge&color=ff69b4"/>
-<img src="https://img.shields.io/github/license/Namia-M/OpenWrt-X.svg?style=for-the-badge&color=blueviolet"/>
+<img src="https://img.shields.io/github/downloads/Namia-M/photonicat/total.svg?style=for-the-badge&color=32C955"/>
+<img src="https://img.shields.io/github/stars/Namia-M/photonicat.svg?style=for-the-badge&color=orange"/>
+<img src="https://img.shields.io/github/forks/Namia-M/photonicat.svg?style=for-the-badge&color=ff69b4"/>
+<img src="https://img.shields.io/github/license/Namia-M/photonicat.svg?style=for-the-badge&color=blueviolet"/>
 
 [![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-项目说明-FFFFFF.svg)](#项目说明-) [![](https://img.shields.io/badge/-固件特色-FFFFFF.svg)](#固件特色-) [![](https://img.shields.io/badge/-固件下载-FFFFFF.svg)](#固件下载-) [![](https://img.shields.io/badge/-近期更新-FFFFFF.svg)](#近期更新-) [![](https://img.shields.io/badge/-插件预览-FFFFFF.svg)](#插件预览-) [![](https://img.shields.io/badge/-定制固件-FFFFFF.svg)](#定制固件-) [![](https://img.shields.io/badge/-特别提示-FFFFFF.svg)](#特别提示-) [![](https://img.shields.io/badge/-鸣谢-FFFFFF.svg)](#鸣谢-)
 </div>
@@ -18,7 +18,7 @@
 - 固件默认管理地址：`192.168.1.1` 默认用户：`root` 密码`【空】`
 - 提供适配photonicat 的 OpenWrt 固件
 - 项目编译的固件插件为最新版本，最新版插件可能有 BUG，如果之前使用稳定则无需追新
--  ### X86_64 [`x86_64💕`](https://github.com/Namia-M/OpenWrt-X) 
+-  ### X86_64 [`x86_64💕`](https://github.com/Namia-M/photonicat) 
 - X86_64使用请采用全新安装，避免出现升级失败以及其他一些可能的 BUG
 - 支持uefi和传统启动两种模式，可以使用微pe或传统你们知道的刷机方式
 - 另外就是网盘的固件可能更新的网站是我原始仓库-X的你们如果刷网盘固件并且要和我后台关联更新的话把Namia-X改成Namia-M
@@ -35,7 +35,7 @@
 6. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
-点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases) 即可跳转到该设备固件下载页面
+点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/photonicat/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | [![](https://img.shields.io/badge/openwrt-PhotonicatWrt-32C955.svg?logo=openwrt)](https://github.com/Namia-M/photonicat/blob/main/.github/workflows/photonicat.yml) | [![](https://github.com/Namia-M/photonicat/actions/workflows/photonicat.yml/badge.svg)](https://github.com/Namia-M/photonicat/actions/workflows/photonicat.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/Namia-M/photonicat/blob/main/configs/base_config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/Namia-M/photonicat/releases) |
@@ -187,7 +187,7 @@
 
 
 ## 定制固件 [![](https://img.shields.io/badge/-项目基本编译教程-FFFFFF.svg)](#定制固件-)
-1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库，复刻[`必看项！！！💕`](https://github.com/Namia-M/OpenWrt-X/blob/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt)
+1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库，复刻[`必看项！！！💕`](https://github.com/Namia-M/photonicat/blob/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt)
 2. TOKEN密匙制作教程：https://git.io/jm.md 云编译需要 [在此](https://github.com/settings/tokens) 创建个```token```,勾选：```repo```, ```workflow```，保存所得的key【后面两种随意】
 - 然后在此仓库```Settings```->```Secrets```中添加个名字为```TOKEN```的Secret,填入token获得的key
 3. 插件对应名称及功能请参考恩山网友帖子：[Applications 添加插件应用说明](https://www.right.com.cn/forum/thread-3682029-1-1.html) 不完全看我后面加啥随心
