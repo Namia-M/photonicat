@@ -29,15 +29,13 @@
 [![Telegram](https://img.shields.io/badge/-Telegram-181717?style=flat&logo=Telegram&logoColor=white)](https://t.me/RileyK9880)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:kmy258855@gmail.com)
 
-
 ## 固件特色 [![](https://img.shields.io/badge/-本项目固件特色-FFFFFF.svg)](#固件特色-)
-1. x86集成部分常用有线、无线、3G / 4G 网卡驱动
-2. 光影猫photonicat添加有线、无线、3G / 4G /5G 网卡驱动【测试中】
-3. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
-4. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
-5. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
-6. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
-7. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
+1. 光影猫photonicat添加有线、无线、3G / 4G /5G 网卡驱动【测试中】
+2. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况,【待定】
+3. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
+4. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
+5. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
+6. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases) 即可跳转到该设备固件下载页面
@@ -48,7 +46,6 @@
 
 ### 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
 - ### 努力修复光影猫photonicat编译基础配置……🤣
-
 
 ## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
 - ![img.png](backups/实例/1img.png)
