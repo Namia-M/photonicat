@@ -215,9 +215,9 @@
 
 
 ## 鸣谢 [![](https://img.shields.io/badge/-跪谢各大佬-FFFFFF.svg)](#鸣谢-)
-| [ImmortalWrt](https://github.com/immortalwrt) | [Coolkids](https://github.com/Coolkids) | [Lienol](https://github.com/Lienol/openwrt) 
+| [ImmortalWrt](https://github.com/immortalwrt) | [Coolkids](https://github.com/Coolkids) | [Yimn](https://github.com/Yimn) 
 | :-------------: | :-------------: | :-------------: |
-| <img width="100" src="https://avatars.githubusercontent.com/u/53193414"/> | <img width="100" src="https://avatars.githubusercontent.com/u/1288503"/> | <img width="100" src="https://avatars.githubusercontent.com/u/23146169"/> | 
+| <img width="100" src="https://avatars.githubusercontent.com/u/53193414"/> | <img width="100" src="https://avatars.githubusercontent.com/u/1288503"/> | <img width="100" src="https://avatars.githubusercontent.com/u/45289508"/> | 
 
 <a href="#readme">
 <img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" title="返回顶部" align="right"/>
