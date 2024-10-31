@@ -12,7 +12,6 @@ src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main
 src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;v5-lua
 src-git istore https://github.com/linkease/istore;main
 src-git adguard https://github.com/Namia-M/openwrt-package.git;adguard
-src-git modem https://github.com/Namia-M/5G-Modem-Support.git;main
 
 
 EOF
