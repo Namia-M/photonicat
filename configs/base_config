@@ -234,6 +234,7 @@ CONFIG_PACKAGE_luci-app-oled=y
 
 # Themes
 CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-material=y
 
 # 3G/4G Support
 CONFIG_PACKAGE_comgt-ncm=y
